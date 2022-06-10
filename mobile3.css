@@ -1,0 +1,119 @@
+.html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+header>img {
+    margin-top: 40px;
+    margin-left: 16px;
+    width: 24px;
+    height: 24px;
+}
+
+header>p {
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-top: 40px;
+    width: 171px;
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.form{
+    margin-left: 16px;
+}
+
+.form h1 {
+    height: 40px;
+    left: 16px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.form h2 {
+    height: 24px;
+    left: 16px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.title {
+    margin-bottom: 8px;
+    height: 16px;
+    left: 16px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.form input {
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 48px;
+    left: 16px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+}
+
+.form input::placeholder {
+    padding-left: 16px;
+    height: 16px;
+    left: 32px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+button {
+    margin-top: 24px;
+    width: 355px;
+    height: 48px;
+    background: #232529;
+    border-radius: 4px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #F5F5F5;
+}
